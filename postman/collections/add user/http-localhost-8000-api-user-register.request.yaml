@@ -1,0 +1,20 @@
+$kind: http-request
+name: http://localhost:8000/api/user/register
+description: ""
+url: http://localhost:8000/api/user/register
+method: POST
+headers:
+  Content-Type: application/json
+  Accept: application/json
+body:
+  type: json
+  content: "{\r
+
+    \  \"email\": \"iqrariqqi741@gmail.com\",\r
+
+    \  \"password\": \"12345678\",\r
+
+    \  \"name\": \"Iqrar Ahmad\"\r
+
+    }"
+order: 1789918134902

@@ -1,0 +1,18 @@
+$kind: http-request
+name: http://localhost:8000/api/user/verify/email
+description: ""
+url: http://localhost:8000/api/user/verify/email
+method: POST
+headers:
+  Accept: application/json
+  Content-Type: application/json
+body:
+  type: json
+  content: "{\r
+
+    \    \"email\": \"iqrariqqi741@gmail.com\",\r
+
+    \    \"otp\": \"163309\"\r
+
+    }"
+order: 628816842589979

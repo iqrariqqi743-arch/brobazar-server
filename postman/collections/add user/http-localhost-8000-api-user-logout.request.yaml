@@ -1,0 +1,9 @@
+$kind: http-request
+name: http://localhost:8000/api/user/logout
+description: ""
+url: http://localhost:8000/api/user/logout
+method: GET
+headers:
+  Accept: application/json
+  Content-Type: application/json
+order: 4395689347283702
